@@ -1,5 +1,5 @@
 [[headers]]
-  # CORS and caching for all paths
+  # CORS for all paths
   for = "/*"
 
   [headers.values]
@@ -7,14 +7,18 @@
     Access-Control-Allow-Methods = "GET, OPTIONS"
     Access-Control-Allow-Headers = "Content-Type"
 
-# Edition index may update when new tafsirs are added — shorter cache
-[[headers]]
-  for = "/editions.json"
-  [headers.values]
-    Cache-Control = "public, max-age=86400"
-
-# Per-surah tafsir files are immutable once deployed — cache aggressively
+# Per-surah tafsir files are immutable once deployed — cache aggressively.
+# Pattern matches /{edition}/{surah}.json paths only.
 [[headers]]
   for = "/*/*.json"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
+
+# Editions index updates when new tafsirs are added — short cache so
+# additions propagate quickly. MUST be AFTER the /*/*.json rule because
+# Netlify's glob treats `*` as "anything including empty", so /*/*.json
+# also matches /editions.json; later rule wins for overlapping headers.
+[[headers]]
+  for = "/editions.json"
+  [headers.values]
+    Cache-Control = "public, max-age=300, must-revalidate"
