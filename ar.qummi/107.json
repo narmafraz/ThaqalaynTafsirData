@@ -1,0 +1,41 @@
+{
+  "edition": "ar.qummi",
+  "surah": 107,
+  "blocks": [
+    "<div class=\"tafsir-arabic\" lang=\"ar\" dir=\"rtl\"><p dir=\"rtl\" lang=\"ar\">{ أرأيت الذي يكذب بالدين } قال: نزلت في أبي جهل وكفار قريش.</p></div>",
+    "",
+    "<div class=\"tafsir-arabic\" lang=\"ar\" dir=\"rtl\"><p dir=\"rtl\" lang=\"ar\">{ ولا يحض على طعام المسكين } أي: لا يرغب في إطعام المسكين.</p></div>",
+    "<div class=\"tafsir-arabic\" lang=\"ar\" dir=\"rtl\"><p dir=\"rtl\" lang=\"ar\">قال: { فويلٌ للمصلين الذين هم عن صلاتهم ساهون } [4-5] قال: عنى به التاركين لأن كل إنسان يسهو في الصلاة، قال أبو عبد الله عليه السلام: تأخير الصلاة على أول وقتها لغير عذر.</p></div>",
+    "<div class=\"tafsir-arabic\" lang=\"ar\" dir=\"rtl\"><p dir=\"rtl\" lang=\"ar\">{ ويمنعون الماعون } مثل السراج والنار والخمير وأشباه ذلك مما يحتاج إليه الناس وفي رواية أخرى الخمس والزكاة.</p></div>"
+  ],
+  "ayahs": [
+    {
+      "ayah": 1,
+      "block": 0
+    },
+    {
+      "ayah": 2,
+      "block": 1
+    },
+    {
+      "ayah": 3,
+      "block": 2
+    },
+    {
+      "ayah": 4,
+      "block": 3
+    },
+    {
+      "ayah": 5,
+      "block": 3
+    },
+    {
+      "ayah": 6,
+      "block": 1
+    },
+    {
+      "ayah": 7,
+      "block": 4
+    }
+  ]
+}

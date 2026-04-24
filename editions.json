@@ -1,5 +1,15 @@
 [
   {
+    "id": "ar.burhan",
+    "name": "البرهان في تفسير القرآن",
+    "name_en": "Al-Burhan fi Tafsir al-Quran",
+    "author": "هاشم البحراني",
+    "author_en": "Hashim al-Bahrani",
+    "language": "ar",
+    "source": "altafsir.com",
+    "death": "1107 AH"
+  },
+  {
     "id": "ar.mizan",
     "name": "الميزان في تفسير القرآن",
     "name_en": "Al-Mizan fi Tafsir al-Quran",
@@ -9,11 +19,97 @@
     "source": "app-furqan"
   },
   {
+    "id": "ar.tibyan",
+    "name": "التبيان الجامع لعلوم القرآن",
+    "name_en": "Al-Tibyan al-Jami' li-Ulum al-Quran",
+    "author": "الشيخ الطوسي",
+    "author_en": "Sheikh al-Tusi",
+    "language": "ar",
+    "source": "altafsir.com",
+    "death": "460 AH"
+  },
+  {
+    "id": "ar.saadah",
+    "name": "تفسير بيان السعادة في مقامات العبادة",
+    "name_en": "Bayan al-Sa'adah fi Maqamat al-Ibadah",
+    "author": "سلطان محمد الجنابذي",
+    "author_en": "Sultan Muhammad al-Junabadhi",
+    "language": "ar",
+    "source": "altafsir.com",
+    "death": "1327 AH"
+  },
+  {
+    "id": "ar.majma",
+    "name": "مجمع البيان في تفسير القرآن",
+    "name_en": "Majma' al-Bayan fi Tafsir al-Quran",
+    "author": "الفضل بن الحسن الطبرسي",
+    "author_en": "Al-Fadl ibn al-Hasan al-Tabarsi",
+    "language": "ar",
+    "source": "altafsir.com",
+    "death": "548 AH"
+  },
+  {
+    "id": "ar.sadra",
+    "name": "تفسير صدر المتألهين",
+    "name_en": "Tafsir Sadr al-Muta'allihin",
+    "author": "صدر المتألهين الشيرازي",
+    "author_en": "Mulla Sadra al-Shirazi",
+    "language": "ar",
+    "source": "altafsir.com",
+    "death": "1059 AH"
+  },
+  {
+    "id": "ar.qummi",
+    "name": "تفسير القرآن",
+    "name_en": "Tafsir al-Qummi",
+    "author": "علي بن إبراهيم القمي",
+    "author_en": "Ali ibn Ibrahim al-Qummi",
+    "language": "ar",
+    "source": "altafsir.com",
+    "death": "329 AH"
+  },
+  {
+    "id": "ar.safi",
+    "name": "تفسير الصافي",
+    "name_en": "Tafsir as-Safi",
+    "author": "الفيض الكاشاني",
+    "author_en": "Mulla Mohsin Fayz Kashani",
+    "language": "ar",
+    "source": "app-furqan"
+  },
+  {
     "id": "en.mizan",
     "name": "Al-Mizan: An Exegesis of the Quran",
     "name_en": "Al-Mizan: An Exegesis of the Quran",
     "author": "Allamah Tabatabai",
     "author_en": "Allamah Tabatabai",
+    "language": "en",
+    "source": "app-furqan"
+  },
+  {
+    "id": "en.nemooneh",
+    "name": "Tafsir Nemooneh (English)",
+    "name_en": "Tafsir Nemooneh (English)",
+    "author": "Ayatollah Makarem Shirazi",
+    "author_en": "Ayatollah Makarem Shirazi",
+    "language": "en",
+    "source": "app-furqan"
+  },
+  {
+    "id": "en.noor",
+    "name": "Tafsir Noor (English)",
+    "name_en": "Tafsir Noor (English)",
+    "author": "Mohsen Gharaati",
+    "author_en": "Mohsen Gharaati",
+    "language": "en",
+    "source": "app-furqan"
+  },
+  {
+    "id": "en.safi",
+    "name": "Tafsir as-Safi (English)",
+    "name_en": "Tafsir as-Safi (English)",
+    "author": "Mulla Mohsin Fayz Kashani",
+    "author_en": "Mulla Mohsin Fayz Kashani",
     "language": "en",
     "source": "app-furqan"
   },
@@ -36,48 +132,12 @@
     "source": "app-furqan"
   },
   {
-    "id": "en.nemooneh",
-    "name": "Tafsir Nemooneh (English)",
-    "name_en": "Tafsir Nemooneh (English)",
-    "author": "Ayatollah Makarem Shirazi",
-    "author_en": "Ayatollah Makarem Shirazi",
-    "language": "en",
-    "source": "app-furqan"
-  },
-  {
     "id": "fa.noor",
     "name": "تفسیر نور",
     "name_en": "Tafsir Noor",
     "author": "محسن قرائتی",
     "author_en": "Mohsen Gharaati",
     "language": "fa",
-    "source": "app-furqan"
-  },
-  {
-    "id": "en.noor",
-    "name": "Tafsir Noor (English)",
-    "name_en": "Tafsir Noor (English)",
-    "author": "Mohsen Gharaati",
-    "author_en": "Mohsen Gharaati",
-    "language": "en",
-    "source": "app-furqan"
-  },
-  {
-    "id": "ar.safi",
-    "name": "تفسير الصافي",
-    "name_en": "Tafsir as-Safi",
-    "author": "الفيض الكاشاني",
-    "author_en": "Mulla Mohsin Fayz Kashani",
-    "language": "ar",
-    "source": "app-furqan"
-  },
-  {
-    "id": "en.safi",
-    "name": "Tafsir as-Safi (English)",
-    "name_en": "Tafsir as-Safi (English)",
-    "author": "Mulla Mohsin Fayz Kashani",
-    "author_en": "Mulla Mohsin Fayz Kashani",
-    "language": "en",
     "source": "app-furqan"
   }
 ]
